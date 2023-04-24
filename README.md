@@ -97,3 +97,6 @@ A vertical scrolling widget styled to look better than that of the HL default. (
 
 # Binding to HL InputActions
 Within your main UI widget, as long as it is a child class of type 'Screen', you can override some incredibly handy functions to gain access to the games input. Click on the blueprint graph for your main ui widget, and in the functions panel, select override, and then `Blueprint on UMG Input Action`. This overridden function now gives you access to all of the input actions defined within your UI widgets `UMGFocus->Focus Input Actions` section. Have fun <3 
+
+# Example 
+To view a basic working example, instead of adding your custom UI widget to the viewport, instead add the `UI_Example` which you can copy from the `DekitaRPG/UICore` folder into your mod folder and package with your mod. You can also clone this example to use as a your own base ui widget.  
