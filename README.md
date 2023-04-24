@@ -74,7 +74,7 @@ A handy widget that allows you to define a list of options, and a default option
 Creates a list of CheckboxButtons using a map of String->Boolean to determine button names and default values. Provides events for when an option is toggled. 
 
 ## RoundButton
-A simple round button you can use in your UI's. Featured within the OptinoSelector widget. Has events etc for when button is triggered.
+A simple round button you can use in your UI's. Featured within the OptionSelector widget. Has events etc for when button is triggered.
 
 ## SimpleSlider
 A simple slider widget, currently only supports values from 1-9. (filler image goes wonky when using other values) 
