@@ -13,11 +13,13 @@ Before you use the UICore, you should use UModel to extract all texture images f
 Once all texture files are exported with UModel, drag and drop the exported UI folder into your projects 'Content' directory within unreal editor. This will begin importing all of the textures and may take a few minutes. 
 
 
-Once all the game textures are in your project, click file->save all, and then close your project. 
+Once all the game textures are in your project, click file->save all. 
 
-Locate your project files in windows explorer, and copy the UICore Content folder/files into your projects folder. This should merge the two Content folders together and may overwrite some files.  
+Next, locate your project files in windows explorer, and OPEN the UICore Content folder. From the UICore folder, first copy the UI folder/files into your projects folder. This should merge the two Content folders together and may overwrite some files. 
 
-When you open your project back up, it should automatically detect all of the new files/changes.
+After the UI folder is added to your project copy the DekitaRPG folder. This will add the UICore's custom elements. The reason we do this in two steps, is to ensure that the references from the DekitaRPG files do not break by being added before the referenced files within the UI folder exist.
+
+You should again save all, then close and reopen your project to make sure everything has been correctly imported and saved. 
 
 You are now ready to begin creating ui mods using the UICore as a base. 
 
