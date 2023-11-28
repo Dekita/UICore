@@ -8,9 +8,9 @@ Various Widgets, Components, and Helper Functions for Hogwarts Legacy UI Modding
 See: https://modding.wiki/en/hogwartslegacy/developers/PhoenixUProjGuide for initial uproject and custom engine setup information. This is NOT optional. Do this first!!
 
 Before you use the UICore, you should use UModel to extract all texture images from 
-`Phoenix/Content/UI` and add them to the uproject for your mods. UModel is recommended over FModel for textures as it takes a few seconds for the entire game compared to FModels seconds per texture. 
+`Phoenix/Content/UI` and add them to the uproject for your mods. UModel is recommended over FModel for textures as it takes a few seconds for the entire game compared to FModels seconds per texture. Follow the directions for UModel over on the [modding wiki 102 tutorial](https://modding.wiki/en/hogwartslegacy/developers/hlblueprint102) to get the correct setup for HL.
 
-Once all texture files are exported with UModel, drag and drop the exported UI folder into your projects 'Content' directory within unreal editor. This will begin importing all of the textures and may take a few minutes. 
+Once all texture files are exported with UModel, drag and drop the exported UI folder into your projects 'Content' directory within unreal editor. This will begin importing all of the textures and may take a few minutes. You might see a lot of errors flash across your screen from being unable to import all the assets. This should be fine. 
 
 
 Once all the game textures are in your project, click file->save all. 
